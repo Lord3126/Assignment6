@@ -1,0 +1,68 @@
+<html>
+  <head>
+      <title> Tokyo </title>
+      <link rel="stylesheet" href = "tiltedpage_scroll-master/demo/tiltedpage-scroll.css">
+      <link rel="stylesheet" href = "style.css">
+  </head>
+
+  <body>
+     
+     <div class ="main">
+         <section class = "page1">
+            <h1> Welcome to Tokyo </h1>
+         </section>
+         <section class = "page2">
+             <h1> Tokyo is a city with rich heritage and a global influence. It is Japan's capital and the world's most populous metropolis. Tokyo is a center for limitless shopping, entertainment, culture, and dining choices. Popular destinations include Odaiba, Senso-ji, Tokyo Tower, Harajuku and Mount Takao. <br> <br> Keep Scrolling to learn more </h1>
+             
+             
+         </section>
+         
+         <section class = "page3">
+             <h1><a href="https://www.japan-guide.com/e/e3008.html">Odaiba </a> </h1>
+             
+         </section>
+          <section class = "page2">
+            <h1> Accessed via the Rainbow Bridge or the futuristic Yurikamome train, Odaiba is a high-tech entertainment hub on an artificial island in Tokyo Bay. Visitors head to the beach at Seaside Park, enjoy Mt. Fuji views from the Daikanransha Ferris wheel, and interact with robots at the Miraikan science museum. Malls include Aqua City and the Venice-themed VenusFort, and there are sushi bars with views along the waterfront. It also has replica of the Statue Of Liberty</h1>
+         </section>
+         <section class = "page4">
+             <h1><br><a href="https://www.japan-guide.com/e/e3001.html">Senso-Ji</a>  </h1>
+         </section>
+            <section class = "page2">
+            <h1> Sensō-ji is an ancient Buddhist temple located in Asakusa, Tokyo, Japan. It is Tokyo's oldest temple, and one of its most significant. Formerly associated with the Tendai sect of Buddhism, it became independent after World War II </h1>
+         </section>
+           <section class = "page5">
+             <h1> <a href="https://www.japan-guide.com/e/e3009.html">Tokyo Tower </a> </h1>
+         </section>
+              <section class = "page2">
+            <h1> Tokyo Tower is a communications and observation tower in the Shiba-koen district of Minato, Tokyo, Japan. It is the second-tallest structure in Japan. The structure is an Eiffel Tower-inspired lattice tower that is painted white and international orange to comply with air safety regulations. </h1>
+         </section>
+          <section class = "page6">
+             <h1> <a href="https://www.japan-guide.com/e/e3006.html">Harajuku </a> </h1>
+         </section>
+             <section class = "page2">
+            <h1> Harajuku is renowned for its colorful street art and fashion scene, with quirky vintage clothing stores and cosplay shops along Takeshita Street, and more traditional, upmarket boutiques are on Omotesando Avenue. </h1>
+         </section>
+           <section class = "page7">
+             <h1> <a href="https://www.japan-guide.com/e/e3029.html"> Mount Takao  </a> </h1>
+         </section>
+         <section class = "page2">
+            <h1> Mount Takao is a mountain in the city of Hachiōji, Tokyo, Japan. It is protected within Meiji no Mori Takao Quasi-National Park. Standing 599 metres tall and located within an hour of downtown Tokyo, it is a popular hiking spot, with eight hiking courses and more than 2.5 million annual visitors.</h1>
+         </section>
+          <section class = "page2">
+            <h1> Thanks for visiting!</h1>
+         </section>
+         
+     </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="tiltedpage_scroll-master/jquery.tiltedpage-scroll.min.js"></script>
+ <script>  
+     $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });
+      </script>
+  </body>
+</html>
